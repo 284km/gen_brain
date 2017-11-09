@@ -1,0 +1,9 @@
+title: brain_sample
+p_inc:        ">"
+p_dec:        "<"
+v_inc:        "+"
+v_dec:        "-"
+output:       "."
+input:        ","
+jump_forward: "["
+jump_back:    "]"
