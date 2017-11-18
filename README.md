@@ -1,8 +1,6 @@
 # GenBrain
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gen_brain`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Generate subspecies of brainf*ck.
 
 ## Installation
 
@@ -22,7 +20,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There are sample files. Write the folowing yaml file in your current directory.
+
+- config.yml
+- config_kemofure.config
+- config_street_fighter2.config
+
+And execute.
+Then, A brainfuck subspecific language and a sample file to output "Hello world!" are generated.
+
+```
+$ gen_brain config_kemofure.config
+⭐️ Input config file nam #=> config_kemofure.config
+🎉 Created brain_kemofure.rb and brain_kemofure_hello_world
+🌈 Let's execute the following code!!
+#=> ruby brain_kemofure.rb brain_kemofure_hello_world
+```
 
 ## Development
 
